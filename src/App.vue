@@ -1,14 +1,3 @@
-<script>
-export default {
-  data() {
-    return {
-      section: 'sobre',
-      mostrarMais: false
-    };
-  }
-};
-</script>
-
 <template>
 
   <div class="app">
