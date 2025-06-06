@@ -1,3 +1,13 @@
+<script>
+export default {
+  data() {
+    return {
+      section: 'sobre',
+    };
+  }
+};
+</script>
+
 <template>
 
   <div class="app">
