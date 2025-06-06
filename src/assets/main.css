@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #70a2f8;
+  color: #111;
+}
+
+.app {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #02041f;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+nav li {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: #01042f;
+  transition: background 0.3s;
+}
+
+nav li:hover {
+  background-color: #6385c1;
+}
+
+nav li.ativo {
+  background-color: #051f57;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+ul {
+  padding-left: 10px;
+  list-style: none;
+}
+
+.card {
+  background-color: #c8d9f4;
+  color: #02041f;
+  padding: 0px 40px 20px;
+  border-radius: 12px;
+  margin: auto;
+  max-width: 600px;
+}
+
+.contatos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.contatos a {
+  text-decoration: none;
+  color: #02041f;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.2s;
+}
+
+.contatos a:hover {
+  color: #051f57;
+}
+
+.contatos i {
+  font-size: 20px;
+}
