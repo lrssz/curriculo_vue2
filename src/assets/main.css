@@ -27,23 +27,27 @@ nav ul {
   justify-content: center;
   gap: 20px;
   padding: 0;
+  margin: 0;
 }
 
-nav li {
+nav a{
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 6px;
   color: #01042f;
   transition: background 0.3s;
+  text-decoration: none;
+  display: inline-block;
 }
 
-nav li:hover {
+nav a:hover {
   background-color: #6385c1;
 }
 
-nav li.ativo {
+nav a.ativo {
   background-color: #051f57;
   color: white;
+  font-weight: bold;
 }
 
 main {
